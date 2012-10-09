@@ -15,10 +15,20 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
 
-    {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
+  {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
   
+  <!-- Facebook Stuff and things-->
+  <meta property="fb:app_id" content="165198970242612">
+  <meta property="og:site_name" content="Beer Advent">
+  <meta property="og:description" content="Beer Advent is for beer lovers and novices alike. It's an opportunity for people to get together and share their experiences through the entire spectrum of beer styles. 24 different beers are purchased and distributed among everyone. Each person drinks the same beer on each day of advent and shares their experience.">
+  {% if page.layout == 'beer' %} 
+    <meta property="og:title", content="{{ document.brewery + " "+ document.name}}">
+    <meta property="og:url", content="http://2011.beeradvent.com{{document.url}}">
+    <meta property="og:image", content= "http://2012.beeradvent.com/images/{{document.image}}">
+  {% endif %}
+
   <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Lobster' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/styles.css">
 

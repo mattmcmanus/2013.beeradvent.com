@@ -3,7 +3,7 @@ baseurl:    /
 url: http://2012.beeradvent.com
 
 markdown:    rdiscount
-permalink:   :day/:title
+permalink:   /:title
 
 rdiscount:
   extensions: []

@@ -2,7 +2,9 @@
 layout: default
 ---
 <div id="content" class="twelve columns">  
+  <h2>Calendar Time</h2>
   {% for post in site.posts %}
+    CONTENT
     <li>
       <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
     </li>

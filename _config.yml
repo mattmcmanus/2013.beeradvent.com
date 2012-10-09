@@ -7,3 +7,13 @@ permalink:   :day/:title
 
 rdiscount:
   extensions: []
+
+auto: true
+server: true
+prose:
+  metadata:
+    "_posts/beer": |
+      title:    "Title of your article"
+      brewery:  ""
+      ABV:  ""
+      advent-day:  ""

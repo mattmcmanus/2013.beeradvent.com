@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="author" content="{{ site.author }}">
+
+    {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+  
+  <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Lobster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+
+  <script src="/javascripts/modernizr.foundation.js"></script>
+
+</head>
+<body>
+
+  <div class="row">
+    <div class="twelve columns">
+      <h1>Beer Advent 2012</h1>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+    {{ content }}
+  </div>
+
+  <div class="row">
+    <div class="twelve columns">
+      
+    </div>
+  </div>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="/javascripts/scripts.js"></script>
+</body>
+</html>

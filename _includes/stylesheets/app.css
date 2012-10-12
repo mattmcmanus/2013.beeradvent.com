@@ -1,3 +1,5 @@
+a {text-decoration: underline; }
+
 #annual {
   color:#900;
   font-size:3rem;
@@ -40,14 +42,11 @@
 }
 
 a.wepay-widget-button.wepay-green {
-  margin: 0 auto 2em;
-  display:block;
-  width:175px;
 }
 
+p {text-align: center;}
 .help {
   font-family:"chunk-1","chunk-2",serif;
-  text-align: center;
   font-size: 2rem
 }
 .help strong {display:block}

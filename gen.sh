@@ -1,6 +1,35 @@
 #!/bin/bash
-for i in `seq 01 24`;
+
+no=1
+
+# Wit,Monastery of Christ in the Desert,Monks Wit,5.10%,$37.95,http://beeradvocate.com/beer/profile/24136/70638
+while IFS=, read style brewery beer abv price ba
 do
-  body="---\nlayout: beer\ntitle: Day $i - Beer\nday: $i\nbrewery: Founders\nname: Reds Rye\nimage: beer-founders-reds-rye.png\ncountry: USA\nstyle: Rye Ale\ncost: 38.99\nabv: 6.6\nageit: Drink it fresh\nbalink: http://beeradvocate.com/beer/profile/\n---\n## The Beer\n\n## The Brewery"
-  echo -e $body > _posts/2012-12-$i-day-$i-beer.md
-done
+
+cat << EOF > _posts/2012-12-$no-${brewery// /-}-${beer// /-}.md
+---
+layout: beer
+title: Day $no - $brewery $beer
+day: $no
+brewery: $brewery
+name: $beer
+image: beer.png
+country: USA
+style: $style
+cost: $price
+abv: $abv
+ageit: Drink it fresh
+respect: false
+balink: $ba
+---
+## The Beer
+
+## The Brewery
+
+EOF
+
+no=`expr $no + 1` 
+
+done < beer.csv
+
+echo "done"

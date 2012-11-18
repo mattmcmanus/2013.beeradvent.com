@@ -1,16 +1,14 @@
 a {text-decoration: underline; }
 
+/*    Logo      */
 #annual {
   color:#900;
   font-size:3rem;
 }
 
 #logo {
-  text-shadow: 0 3px 7px rgba(20,20,20,.2);
-  font-size: 12rem;
-  line-height: 10.5rem;
+  font-size: 3rem;
   position: relative;
-  width:540px;
   -moz-transform: rotate(-25deg);
   -webkit-transform: rotate(-25deg);
   -o-transform: rotate(-25deg);
@@ -41,13 +39,19 @@ a {text-decoration: underline; }
   bottom: -100px;
 }
 
-a.wepay-widget-button.wepay-green {
-  
-}
+/*  header      */
+#header {}
 
-p {text-align: center;}
-.help {
-  font-family:"chunk-1","chunk-2",serif;
-  font-size: 2rem
-}
-.help strong {display:block}
+/*  The List    */
+#list {}
+
+.beer {}
+
+
+
+
+
+
+
+
+

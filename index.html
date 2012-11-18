@@ -2,12 +2,10 @@
 layout: default
 ---
 <div id="content" class="twelve columns">
-  <h2>The <strong>2012</strong> Beer List</h2>
-  <ul class="block-grid four-up mobile-two-up">
+  <h2>The <strong>2012</strong> Beer Calendar</h2>
+  <ul id="list" class="block-grid three-up mobile-one-up">
   {% for post in site.posts reversed %}
-    <li>
-      {% include beer-thumb.html %}
-    </li>
+    {% include beer-thumb.html %}
   {% endfor %}
   </ul>
 </div>

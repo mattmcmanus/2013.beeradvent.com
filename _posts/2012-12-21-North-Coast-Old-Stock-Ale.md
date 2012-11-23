@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Old Ale
 cost: $74.99
+dollas: $$
 abv: 11.70%
 ageit: Drink it fresh
 respect: false

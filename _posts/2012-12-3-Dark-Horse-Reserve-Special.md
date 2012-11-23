@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Black Lager/Schwarzbier
 cost: $34.95
+dollas: $
 abv: 7.50%
 ageit: Drink it fresh
 respect: false

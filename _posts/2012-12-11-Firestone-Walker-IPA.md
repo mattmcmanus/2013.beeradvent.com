@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Imperial IPA
 cost: $46.99
+dollas: $
 abv: 7.50%
 ageit: Drink it fresh
 respect: false

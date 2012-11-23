@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Belgian Strong Dark Ale
 cost: $53.99
+dollas: $$
 abv: 10.50%
 ageit: Drink it fresh
 respect: false

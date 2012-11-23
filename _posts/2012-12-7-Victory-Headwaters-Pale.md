@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Pale Ale
 cost: $31.59
+dollas: $
 abv: 5.10%
 ageit: Drink it fresh
 respect: false

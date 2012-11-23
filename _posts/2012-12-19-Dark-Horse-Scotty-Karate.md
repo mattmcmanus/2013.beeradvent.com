@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Scotch Ale
 cost: $36.95
+dollas: $
 abv: 9.75%
 ageit: Drink it fresh
 respect: false

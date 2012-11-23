@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Triple
 cost: $75.95
+dollas: $$
 abv: 7.50%
 ageit: Drink it fresh
 respect: false

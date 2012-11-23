@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: ESB
 cost: $33.99
+dollas: $
 abv: 4.20%
 ageit: Drink it fresh
 respect: false

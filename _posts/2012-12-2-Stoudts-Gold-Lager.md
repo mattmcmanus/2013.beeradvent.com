@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Lager
 cost: $31.99
+dollas: $
 abv: 5.00%
 ageit: Drink it fresh
 respect: false

@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Quadrupal
 cost: $106.99
+dollas: $$$
 abv: 10.00%
 ageit: Drink it fresh
 respect: false

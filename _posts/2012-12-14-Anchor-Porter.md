@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Porter
 cost: $37.99
+dollas: $
 abv: 5.60%
 ageit: Drink it fresh
 respect: false

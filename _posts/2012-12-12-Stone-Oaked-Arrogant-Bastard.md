@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Strong Ale
 cost: $65.99
+dollas: $$
 abv: 7.20%
 ageit: Drink it fresh
 respect: false

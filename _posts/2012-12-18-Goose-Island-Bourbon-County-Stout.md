@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Imperial Stout
 cost: $160.00
+dollas: $$$
 abv: 15.00%
 ageit: Drink it fresh
 respect: false

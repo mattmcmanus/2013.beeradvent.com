@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Winter Warmer
 cost: $32.99
+dollas: $
 abv: 5.70%
 ageit: Drink it fresh
 respect: false

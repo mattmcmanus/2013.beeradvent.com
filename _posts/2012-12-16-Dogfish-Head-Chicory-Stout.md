@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Stout
 cost: $47.99
+dollas: $
 abv: 5.20%
 ageit: Drink it fresh
 respect: false

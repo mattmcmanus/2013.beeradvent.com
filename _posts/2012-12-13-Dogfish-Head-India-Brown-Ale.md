@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: India Brown Ale
 cost: $37.99
+dollas: $
 abv: 7.20%
 ageit: Drink it fresh
 respect: false

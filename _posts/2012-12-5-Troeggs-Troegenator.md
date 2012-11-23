@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Dopplebock
 cost: $35.99
+dollas: $
 abv: 8.20%
 ageit: Drink it fresh
 respect: false

@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: India Pale Ale
 cost: $44.99
+dollas: $
 abv: 7.00%
 ageit: Drink it fresh
 respect: false

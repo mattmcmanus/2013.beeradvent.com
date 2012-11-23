@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Imperial Porter
 cost: $43.00
+dollas: $
 abv: 7.00%
 ageit: Drink it fresh
 respect: false

@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Red Ale
 cost: $39.99
+dollas: $
 abv: 6.80%
 ageit: Drink it fresh
 respect: false

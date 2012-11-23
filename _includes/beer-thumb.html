@@ -3,12 +3,11 @@
   <a href="{{ post.url }}" property="dc:title">
     <h3><small>{{ post.brewery }}</small> {{ post.name }}</h3>
   </a>
-  <ul class="block-grid two-up">
+  <ul class="details">
     <li class="style {{ post.style }}">{{ post.style }}</li>
     <li class="county {{ post.country }}">{{ post.country }}</li>
     <li class="abv {{ post.abv }}">{{ post.abv }}</li>
-    <li class="cost {{ post.cost }}">{{ post.cost }}</li>
+    <li class="cost {{ post.dollas }}{{ post.cost }}">{{ post.dollas }}</li>
     <li class="comments"><a href="{{ post.url }}#disqus_thread">Comments</a></li>
-    
   </ul>
 </li>

@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Wit
 cost: $37.95
+dollas: $
 abv: 5.10%
 ageit: Drink it fresh
 respect: false

@@ -8,6 +8,7 @@ image: beer.png
 country: USA
 style: Belgian Pale Ale
 cost: $113.99
+dollas: $$$
 abv: 9.00%
 ageit: Drink it fresh
 respect: false

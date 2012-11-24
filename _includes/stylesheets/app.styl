@@ -4,6 +4,8 @@
 
 red=#900
 
+chunk="chunk-1","chunk-2",serif
+
 a 
   text-decoration underline  
 
@@ -29,7 +31,7 @@ a
     color red
     font-size .55em
     position absolute 
-    font-family "chunk-1","chunk-2",serif
+    font-family chunk
     transform rotate(25deg)
     left 48px
     bottom -41px
@@ -43,11 +45,12 @@ a
   
 .beer
   position relative
+  margin-bottom 2em
   .day
     font-family "corner-store-1","corner-store-2",sans-serif
     color red
     position relative
-    top 14px
+    top 8px
   a 
     text-decoration none
     display block
@@ -56,11 +59,45 @@ a
       small
         display block
         line-height .9em
+  .image
+    margin 0 auto
+    z-index -1
+    border-radius 85px
+    box-shadow 0 1px 5px rgba(20,20,20,.3)
+    overflow hidden
+    height 175px
+    width 175px
+    background-position -130px -230px
+    background-size 250%
+    img
+      display none
   .details
-    border-radius 5px
+    border-radius 6px
     border 1px solid #eee
+    border-width 1px 4px
     margin 0
+    text-align center
+    width auto
     li
       list-style none
       display inline-block
-      width 49%
+      // width 20%
+      padding 2px 4px
+      margin 0
+      font-size 11px
+      font-family chunk
+      border-left 1px solid #eee
+      &:first-child
+        border-left none
+      &.cost
+        &.low
+          color lightgreen
+        &.mid
+          color green
+        &.hi 
+          color darkgreen
+      &.abv
+        &.mid
+          color darkorange
+        &.hi 
+          color orange

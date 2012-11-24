@@ -66,13 +66,31 @@ a {
   line-height: 0.9em;
 }
 .beer .details {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
   border: 1px solid #eee;
+  border-width: 1px 4px;
   margin: 0;
 }
 .beer .details li {
   list-style: none;
   display: inline-block;
   width: 49%;
+  padding: 2px 4px;
+  margin: 0;
+}
+.beer .details li:nth-child(odd) {
+  border-right: 1px solid #eee;
+}
+.beer .details li.cost {
+  font-family: "chunk-1", "chunk-2", serif;
+}
+.beer .details li.cost.$ {
+  color: #90ee90;
+}
+.beer .details li.cost.$$ {
+  color: #008000;
+}
+.beer .details li.cost.$$$ {
+  color: #006400;
 }

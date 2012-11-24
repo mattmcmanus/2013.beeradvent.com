@@ -1,13 +1,16 @@
-<li class="beer thumb">
-  <span class="day">{{ post.day }}</span>
+<div class="beer thumb four columns">
+  <span class="day">Day {{ post.day }}</span>
   <a href="{{ post.url }}" property="dc:title">
     <h3><small>{{ post.brewery }}</small> {{ post.name }}</h3>
   </a>
+  <div class="image" style="background-image:url(/images/{{ post.image }})">
+    <img src="/images/{{ post.image }}" alt="{{ post.name }}" />
+  </div>
   <ul class="details">
-    <li class="style {{ post.style }}">{{ post.style }}</li>
+    <li class="style {{ post.style }}">{% if post.shortstyle %}{{ post.shortstyle }}{% else %}{{ post.style }}{% endif %}</li>
     <li class="county {{ post.country }}">{{ post.country }}</li>
-    <li class="abv {{ post.abv }}">{{ post.abv }}</li>
-    <li class="cost {{ post.dollas }}{{ post.cost }}">{{ post.dollas }}</li>
+    <li class="abv {{ post.heat }}">{{ post.abv }}</li>
+    <li class="cost {{ post.dollas }} {{ post.cost }}">{{ post.cost }}</li>
     <li class="comments"><a href="{{ post.url }}#disqus_thread">Comments</a></li>
   </ul>
-</li>
+</div>

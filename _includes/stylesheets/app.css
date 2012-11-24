@@ -45,12 +45,13 @@ a {
 /*  The List    */
 .beer {
   position: relative;
+  margin-bottom: 2em;
 }
 .beer .day {
   font-family: "corner-store-1", "corner-store-2", sans-serif;
   color: #900;
   position: relative;
-  top: 14px;
+  top: 8px;
 }
 .beer a {
   text-decoration: none;
@@ -63,14 +64,57 @@ a {
   display: block;
   line-height: 0.9em;
 }
+.beer .image {
+  margin: 0 auto;
+  z-index: -1;
+  -webkit-border-radius: 85px;
+  border-radius: 85px;
+  -webkit-box-shadow: 0 1px 5px rgba(20,20,20,0.3);
+  box-shadow: 0 1px 5px rgba(20,20,20,0.3);
+  overflow: hidden;
+  height: 175px;
+  width: 175px;
+  background-position: -130px -230px;
+  -webkit-background-size: 250%;
+  -moz-background-size: 250%;
+  background-size: 250%;
+}
+.beer .image img {
+  display: none;
+}
 .beer .details {
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
   border: 1px solid #eee;
+  border-width: 1px 4px;
   margin: 0;
+  text-align: center;
+  width: auto;
 }
 .beer .details li {
   list-style: none;
   display: inline-block;
-  width: 49%;
+  padding: 2px 4px;
+  margin: 0;
+  font-size: 11px;
+  font-family: "chunk-1", "chunk-2", serif;
+  border-left: 1px solid #eee;
+}
+.beer .details li:first-child {
+  border-left: none;
+}
+.beer .details li.cost.low {
+  color: #90ee90;
+}
+.beer .details li.cost.mid {
+  color: #008000;
+}
+.beer .details li.cost.hi {
+  color: #006400;
+}
+.beer .details li.abv.mid {
+  color: #ff8c00;
+}
+.beer .details li.abv.hi {
+  color: #ffa500;
 }

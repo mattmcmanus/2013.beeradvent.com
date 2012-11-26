@@ -1,11 +1,11 @@
 <div class="beer thumb four columns">
   <span class="day">Day {{ post.day }}</span>
   <a href="{{ post.url }}" property="dc:title">
+    <div class="image" style="background-image:url(/images/{{ post.image }})">
+      <img src="/images/{{ post.image }}" alt="{{ post.name }}" />
+    </div>
     <h3><small>{{ post.brewery }}</small> {{ post.name }}</h3>
   </a>
-  <div class="image" style="background-image:url(/images/{{ post.image }})">
-    <img src="/images/{{ post.image }}" alt="{{ post.name }}" />
-  </div>
   <ul class="details">
     <li class="style {{ post.style }}">{% if post.shortstyle %}{{ post.shortstyle }}{% else %}{{ post.style }}{% endif %}</li>
     <li class="county {{ post.country }}">{{ post.country }}</li>

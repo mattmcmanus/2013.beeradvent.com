@@ -1,12 +1,39 @@
 @import 'webfonts/ss-standard.css';
 @import 'webfonts/ss-social.css';
-a {
-  text-decoration: underline;
+#main a {
+  color: #333;
 }
 /*    Logo      */
 #annual {
   color: #900;
   font-size: 3rem;
+}
+#header .top-bar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+#header .top-bar,
+#header .top-bar ul,
+#header .top-bar a {
+  height: 85px;
+}
+#header .top-bar .name,
+#header .top-bar .name a:hover {
+  background: #fff;
+}
+#header .top-bar a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+}
+#header .top-bar a:hover {
+  background: #f6f6f6;
+}
+#header .top-bar section a {
+  padding-top: 20px;
+  font-size: 1.5em;
+  font-family: "chunk-1", "chunk-2", serif;
+  text-shadow: 1px 1px 0px #fff, 3px 3px 0px #ddd;
 }
 #logo {
   font-size: 4rem;
@@ -20,6 +47,7 @@ a {
   transform: rotate(-25deg);
   margin: 0.5em auto;
   width: 200px;
+  text-shadow: 1px 1px 0px #fff, 3px 3px 0px #ddd;
 }
 #logo span {
   display: block;
@@ -41,7 +69,6 @@ a {
   left: 48px;
   bottom: -41px;
 }
-/*  header      */
 /*  The List    */
 .beer {
   position: relative;

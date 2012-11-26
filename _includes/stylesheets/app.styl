@@ -5,14 +5,40 @@
 red=#900
 
 chunk="chunk-1","chunk-2",serif
+fancychunk()
+  font-family chunk
+  text-shadow 2px 2px 0px white, 6px 6px 0px #900
+supershadow()
+  text-shadow 1px 1px 0px white, 3px 3px 0px #ddd
 
-a 
-  text-decoration underline  
+#main a
+  color #333
 
 /*    Logo      */
 #annual 
   color red
   font-size 3rem 
+
+#header
+  .top-bar
+    background white
+    border-bottom 1px solid #eee
+    &, ul, a
+      height 85px
+    .name, .name a:hover
+      background white
+    a
+      color black
+      text-decoration none
+      font-weight 300
+      &:hover
+        background #f6f6f6
+    section
+      a
+        padding-top 20px
+        font-size 1.5em
+        font-family chunk
+        supershadow()
 
 #logo 
   font-size 4rem 
@@ -22,6 +48,7 @@ a
   transform rotate(-25deg) 
   margin .5em auto 
   width 200px
+  supershadow()
   span
     display block 
   .word2
@@ -37,11 +64,9 @@ a
     bottom -41px
 
 
-/*  header      */
-// #header 
-
 /*  The List    */
 // #list 
+
   
 .beer
   position relative

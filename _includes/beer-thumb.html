@@ -1,9 +1,7 @@
 <div class="beer thumb four columns">
-  <span class="day">Day {{ post.day }}</span>
+  <div class="day">Day <strong>{{ post.day }}</strong></div>
   <a href="{{ post.url }}" property="dc:title">
-    <div class="image" style="background-image:url(/images/{{ post.image }})">
-      <img src="/images/{{ post.image }}" alt="{{ post.name }}" />
-    </div>
+    <img class="image" src="/images/{{ post.image }}" alt="{{ post.name }}" />
     <h3><small>{{ post.brewery }}</small> {{ post.name }}</h3>
   </a>
   <ul class="details">

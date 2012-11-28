@@ -1,23 +1,35 @@
 ---
 layout: default
 ---
-<h2 class="brewery">{{ page.brewery }}</h2>
-<h2 class="beer">{{ page.name }}</h2>
+<div class="beer single">
+  <img class="image" src="/images/{{ page.image }}" alt="{{ page.name }}" />
+  <div class="info">
+    <div class="day">Day <strong>{{ page.day }}</strong></div>
+    <h2 class="name"><small>{{ page.brewery }}</small> {{ page.name }}</h2>
 
-{{ content }}
+    <ul class="details">
+      <li class="style {{ page.style }}">{% if page.shortstyle %}{{ page.shortstyle }}{% else %}{{ page.style }}{% endif %}</li>
+      <li class="abv {{ page.heat }}">{{ page.abv }}</li>
+      <li class="country {{ page.country }}">{{ page.country }}</li>
+      <li class="cost {{ page.dollas }} {{ page.cost }}">{{ page.cost }}</li>
+      <li class="comments"><a href="{{ page.url }}#disqus_thread">Comments</a></li>
+    </ul>
+    
+    {{ content }}
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'accountable'; // required: replace example with your forum shortname
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'accountable'; // required: replace example with your forum shortname
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-        
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>    
+  </div>
+</div>

@@ -15,7 +15,10 @@ ageit: Drink it fresh
 respect: false
 balink: http://beeradvocate.com/beer/profile/345/66281
 ---
-## The Beer
 
-## The Brewery
+### The Style
+
+### The Beer
+
+### The Brewery
 

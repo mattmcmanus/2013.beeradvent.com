@@ -6,7 +6,6 @@ brewery: Bells
 name: Two Hearted
 image: beer.jpg
 country: USA
-shortstyle: IPA
 style: India Pale Ale
 cost: $44.99
 dollas: low
@@ -16,7 +15,10 @@ ageit: Drink it fresh
 respect: false
 balink: http://beeradvocate.com/beer/profile/287/1093
 ---
-## The Beer
 
-## The Brewery
+### The Style
+
+### The Beer
+
+### The Brewery
 

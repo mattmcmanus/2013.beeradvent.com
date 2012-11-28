@@ -6,7 +6,6 @@ brewery: Brasserie d'Achouffe
 name: Houblon Chouffe
 image: beer.jpg
 country: USA
-shortstyle: BIPA
 style: Belgian India Pale Ale
 cost: $113.99
 dollas: hi
@@ -16,7 +15,10 @@ ageit: Drink it fresh
 respect: false
 balink: http://beeradvocate.com/beer/profile/321/27804
 ---
-## The Beer
 
-## The Brewery
+### The Style
+
+### The Beer
+
+### The Brewery
 

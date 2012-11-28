@@ -6,7 +6,6 @@ brewery: Firestone Walker
 name: IPA
 image: beer.jpg
 country: USA
-shortstyle: IPA
 style: India Pale Ale
 cost: $46.99
 dollas: low
@@ -16,7 +15,10 @@ ageit: Drink it fresh
 respect: false
 balink: http://beeradvocate.com/beer/profile/2210/38180
 ---
-## The Beer
 
-## The Brewery
+### The Style
+
+### The Beer
+
+### The Brewery
 

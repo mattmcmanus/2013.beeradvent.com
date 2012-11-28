@@ -12,22 +12,11 @@
 
 @font-face {
   font-family: "SSSocial";
-  src: url('ss-social-circle.eot');
-  src: url('ss-social-circle.eot?#iefix') format('embedded-opentype'),
-       url('ss-social-circle.woff') format('woff'),
-       url('ss-social-circle.ttf') format('truetype'),
-       url('ss-social-circle.svg#SSSocialCircle') format('svg');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "SSSocial";
-  src: url('ss-social-regular.eot');
-  src: url('ss-social-regular.eot?#iefix') format('embedded-opentype'),
-       url('ss-social-regular.woff') format('woff'),
-       url('ss-social-regular.ttf') format('truetype'),
-       url('ss-social-regular.svg#SSSocialRegular') format('svg');
+  src: url('/webfonts/ss-social-regular.eot');
+  src: url('/webfonts/ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('/webfonts/ss-social-regular.woff') format('woff'),
+       url('/webfonts/ss-social-regular.ttf') format('truetype'),
+       url('/webfonts/ss-social-regular.svg#SSSocialRegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -76,13 +65,12 @@ h2,
 h3 {
   font-family: homestead, serif;
 }
+p,
+li {
+  font-family: "georgia, serif";
+}
 #main a {
   color: #333;
-}
-/*    Logo      */
-#annual {
-  color: #600;
-  font-size: 3rem;
 }
 #header .top-bar {
   background: #fff;
@@ -110,6 +98,9 @@ h3 {
   font-size: 1.4em;
   font-family: homestead, serif;
   text-shadow: 1px 1px 0px #fff, 3px 3px 0px #ddd;
+}
+#header .top-bar section a.current {
+  color: #600;
 }
 #logo {
   font-size: 4rem;
@@ -145,6 +136,49 @@ h3 {
   left: 48px;
   bottom: -41px;
 }
+#about {
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 1px 1px 0px #fff, 3px 3px 0px #ddd;
+}
+#about span {
+  display: block;
+}
+#about .word1 {
+  font-size: 1.5em;
+}
+#about .word2,
+#about .word4,
+#about .word5,
+#about .word7 {
+  font-family: homestead, serif;
+}
+#about .word2,
+#about .word4 {
+  border: 1px solid #ccc;
+  border-width: 3px 0;
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  line-height: 0.9em;
+  padding: 2px 0 1px;
+}
+#about .word3 {
+  font-size: 3em;
+  color: #600;
+}
+#about .word4 {
+  width: 80px;
+}
+#about .word5,
+#about .word6,
+#about .word7 {
+  font-size: 2em;
+  display: inline-block;
+}
+#about .word6 {
+  color: #999;
+}
 .beer {
   position: relative;
   margin-bottom: 2em;
@@ -154,75 +188,129 @@ h3 {
   background-color: #600;
   color: #fff;
   padding: 8px;
-  font-size: 1.2rem;
   text-align: center;
-  width: 36px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  position: absolute;
+  left: 10px;
+  -webkit-box-shadow: 0px 2px 3px rgba(34,34,34,0.1);
+  box-shadow: 0px 2px 3px rgba(34,34,34,0.1);
 }
 .beer .day strong {
   font-family: homestead, serif;
-  font-size: 2rem;
-}
-.beer a {
-  text-decoration: none;
   display: block;
 }
-.beer a h3,
-.beer a .image {
+.beer .name,
+.beer .image {
   display: inline-block;
 }
-.beer a h3 {
-  line-height: 1.2em;
-  position: absolute;
-  top: 75px;
-  right: 0;
+.beer .name {
   width: 65%;
 }
-.beer a h3 small {
+.beer .name small {
   display: block;
-  line-height: 1em;
   font-family: "georgia, serif";
   font-weight: 300;
+  line-height: 1.1em;
   color: #600;
 }
-.beer a .image {
-  height: 250px;
-  margin: 0 10px;
-}
 .beer .details {
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  border: 1px solid #eee;
-  border-width: 1px 4px;
-  margin: 0;
-  text-align: center;
-  width: auto;
+  border-top: 1px solid #eee;
+  width: 65%;
 }
 .beer .details li {
   list-style: none;
+  font-style: italic;
   display: inline-block;
   padding: 2px 4px;
   margin: 0;
-  font-size: 11px;
-  font-family: homestead, serif;
   border-left: 1px solid #eee;
 }
 .beer .details li:first-child {
   border-left: none;
-}
-.beer .details li.cost.low {
-  color: #90ee90;
-}
-.beer .details li.cost.mid {
-  color: #008000;
-}
-.beer .details li.cost.hi {
-  color: #006400;
 }
 .beer .details li.abv.mid {
   color: #ff8c00;
 }
 .beer .details li.abv.hi {
   color: #ffa500;
+}
+.beer .details li.cost.low {
+  color: #171;
+}
+.beer .details li.cost.mid {
+  color: #161;
+}
+.beer .details li.cost.hi {
+  color: #151;
+}
+.beer.thumb {
+  padding-top: 1em;
+}
+.beer.thumb .day {
+  font-size: 1.2rem;
+  width: 40px;
+}
+.beer.thumb .day strong {
+  margin-top: 2px;
+  display: block;
+}
+.beer.thumb > a {
+  text-decoration: none;
+  display: block;
+  margin-top: 1em;
+}
+.beer.thumb h3 {
+  font-size: 2em;
+  line-height: 1.1em;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+.beer.thumb .image {
+  height: 250px;
+  margin: 0 10px;
+}
+.beer.thumb .details {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+}
+.beer.thumb .details li {
+  font-size: 13px;
+}
+.beer.thumb .details li.style {
+  width: 100%;
+}
+.beer.thumb .details li.abv,
+.beer.thumb .details li.cost,
+.beer.thumb .details li.country,
+.beer.thumb .details li.comments {
+  width: 31%;
+  border-top: 1px solid #eee;
+}
+.beer.thumb .details li.abv {
+  border-left: none;
+}
+.beer.thumb .details li.comments {
+  width: 100%;
+  border-left: none;
+}
+.beer.single {
+  padding-top: 0;
+}
+.beer.single .image {
+  float: left;
+  width: 200px;
+  margin-right: 18px;
+}
+.beer.single .info {
+  margin-left: 218px;
+}
+.beer.single .details {
+  font-size: 1.3em;
+}
+#footer .ss-social {
+  color: #600;
+  font-size: 4em;
 }

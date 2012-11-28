@@ -6,7 +6,6 @@ brewery: Dogfish Head
 name: India Brown Ale
 image: beer.jpg
 country: USA
-shortstyle: IBA
 style: India Brown Ale
 cost: $37.99
 dollas: low
@@ -16,7 +15,10 @@ ageit: Drink it fresh
 respect: false
 balink: http://beeradvocate.com/beer/profile/64/1161
 ---
-## The Beer
 
-## The Brewery
+### The Style
+
+### The Beer
+
+### The Brewery
 

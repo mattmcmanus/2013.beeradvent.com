@@ -12,8 +12,9 @@
     font-style: normal;
 }
 
+// Variables & Functions
+// - - - - - - - - - - - - - - - - - -
 red=#600
-
 slab=homestead,serif
 georgia="georgia, serif"
 fancyslab()
@@ -22,17 +23,20 @@ fancyslab()
 supershadow()
   text-shadow 1px 1px 0px white, 3px 3px 0px #ddd
 
+
+//  General
+// - - - - - - - - - - - - - - - - - -
 h2, h3
   font-family slab
+
+p, li
+  font-family georgia
 
 #main a
   color #333
 
-/*    Logo      */
-#annual 
-  color red
-  font-size 3rem 
-
+//    Header & Logo
+// - - - - - - - - - - - - - - - - - -
 #header
   .top-bar
     background white
@@ -53,6 +57,8 @@ h2, h3
         font-size 1.4em
         font-family slab
         supershadow()
+        &.current
+          color red
 
 #logo 
   font-size 4rem 
@@ -77,6 +83,39 @@ h2, h3
     left 48px
     bottom -41px
 
+//    About Page
+// - - - - - - - - - - - - - - - - - -
+#about
+  font-size 3em
+  text-align center
+  supershadow()
+  span
+    display block
+  .word1
+    font-size 1.5em
+  .word2, .word4, .word5,.word7
+    font-family slab
+  .word2,.word4
+    border 1px solid #ccc
+    border-width 3px 0
+    display block
+    margin 0 auto
+    width 120px
+    line-height .9em
+    padding 2px 0 1px
+  .word3
+    font-size 3em
+    color red
+  .word4
+    width 80px
+  .word5,.word6,.word7
+    font-size 2em
+    display inline-block
+  .word6
+    color #999
+
+//    BEER!
+// - - - - - - - - - - - - - - - - - -
 .beer
   position relative
   margin-bottom 2em
@@ -85,60 +124,99 @@ h2, h3
     background-color red
     color white
     padding 8px
-    font-size 1.2rem
     text-align center
-    width 36px
     border-radius 2px
+    position absolute
+    left 10px
+    box-shadow 0px 2px 3px rgba(34,34,34,.1)
     strong
       font-family slab
-      font-size 2rem
-  a 
-    text-decoration none
-    display block
-    h3, .image
-      display inline-block
-    h3 
-      line-height 1.2em
-      position absolute 
-      top 75px 
-      right 0
-      width 65%
-      small
-        display block
-        line-height 1em
-        font-family georgia
-        font-weight 300
-        color red
-    .image
-      height 250px
-      margin 0 10px
+      display block
+  .name, .image
+    display inline-block
+  .name
+    width 65%
+    small
+      display block
+      font-family georgia
+      font-weight 300
+      line-height 1.1em
+      color red
   .details
-    border-radius 6px
-    border 1px solid #eee
-    border-width 1px 4px
-    margin 0
-    text-align center
-    width auto
+    border-top 1px solid #eee
+    width 65%
     li
       list-style none
+      font-style italic
       display inline-block
-      // width 20%
       padding 2px 4px
       margin 0
-      font-size 11px
-      font-family slab
       border-left 1px solid #eee
       &:first-child
         border-left none
-      &.cost
-        &.low
-          color lightgreen
-        &.mid
-          color green
-        &.hi 
-          color darkgreen
       &.abv
         &.mid
           color darkorange
         &.hi 
           color orange
+      &.cost
+        &.low
+          color #171
+        &.mid
+          color #161
+        &.hi 
+          color #151
+
+.beer.thumb
+  padding-top 1em
+  .day
+    font-size 1.2rem
+    width 40px
+    strong
+      margin-top 2px
+      display block
+  & > a 
+    text-decoration none
+    display block
+    margin-top 1em
+  h3 
+    font-size 2em
+    line-height 1.1em
+    position absolute 
+    top 50px 
+    right 0
+  .image
+    height 250px
+    margin 0 10px
+  .details
+    position absolute
+    bottom 5px
+    right 0
+    li
+      font-size 13px
+      &.style
+        width 100%
+      &.abv, &.cost, &.country, &.comments
+        width 31%
+        border-top 1px solid #eee
+      &.abv
+        border-left none
+      &.comments
+        width 100%
+        border-left none
+
+.beer.single
+  padding-top 0
+  .image
+    float left
+    width 200px
+    margin-right 18px
+  .info
+    margin-left 218px
+  .details
+    font-size 1.3em
+
+#footer
+  .ss-social
+    color red
+    font-size 4em

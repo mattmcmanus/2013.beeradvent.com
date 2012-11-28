@@ -47,9 +47,12 @@ ageit: Drink it fresh
 respect: false
 balink: $ba
 ---
-## The Beer
 
-## The Brewery
+### The Style
+
+### The Beer
+
+### The Brewery
 
 EOF
 

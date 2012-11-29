@@ -29,7 +29,7 @@ case ${abv:0:1} in
     heat='hi';;
 esac
 
-cat << EOF > _posts/2012-12-$day-${brewery// /-}-${beer// /-}.md
+cat << EOF #> _posts/2012-12-$day-${brewery// /-}-${beer// /-}.md
 ---
 layout: beer
 title: Day $day - $brewery $beer
@@ -48,11 +48,14 @@ respect: false
 balink: $ba
 ---
 
-### The Style
 
 ### The Beer
 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 ### The Brewery
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 EOF
 

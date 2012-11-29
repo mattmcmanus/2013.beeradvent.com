@@ -17,6 +17,7 @@
 red=#600
 slab=homestead,serif
 georgia="georgia, serif"
+script="corner-store-1","corner-store-2",sans-serif
 fancyslab()
   font-family slab
   text-shadow 2px 2px 0px white, 6px 6px 0px #900
@@ -32,8 +33,16 @@ h2, h3
 p, li
   font-family georgia
 
+body
+  border 6px solid #f6f6f6
+  font-family georgia
+
 #main a
   color #333
+
+#main p, #main li
+  font-size 15px
+  line-height 1.4em
 
 //    Header & Logo
 // - - - - - - - - - - - - - - - - - -
@@ -121,21 +130,21 @@ p, li
   margin-bottom 2em
   .day
     font-family georgia
+    font-style italic
     background-color red
     color white
     padding 8px
     text-align center
     border-radius 2px
-    position absolute
-    left 10px
     box-shadow 0px 2px 3px rgba(34,34,34,.1)
     strong
       font-family slab
       display block
+      font-style normal
+      font-size 1.5em
   .name, .image
     display inline-block
   .name
-    width 65%
     small
       display block
       font-family georgia
@@ -144,7 +153,6 @@ p, li
       color red
   .details
     border-top 1px solid #eee
-    width 65%
     li
       list-style none
       font-style italic
@@ -156,22 +164,24 @@ p, li
         border-left none
       &.abv
         &.mid
-          color darkorange
+          color #740
         &.hi 
-          color orange
+          color #940
       &.cost
         &.low
-          color #171
-        &.mid
           color #161
-        &.hi 
+        &.mid
           color #151
+        &.hi 
+          color #141
 
 .beer.thumb
   padding-top 1em
   .day
     font-size 1.2rem
     width 40px
+    position absolute
+    left 10px
     strong
       margin-top 2px
       display block
@@ -179,8 +189,10 @@ p, li
     text-decoration none
     display block
     margin-top 1em
+  .name
+    width 65%
   h3 
-    font-size 2em
+    font-size 2.1em
     line-height 1.1em
     position absolute 
     top 50px 
@@ -192,6 +204,7 @@ p, li
     position absolute
     bottom 5px
     right 0
+    width 65%
     li
       font-size 13px
       &.style
@@ -207,16 +220,36 @@ p, li
 
 .beer.single
   padding-top 0
-  .image
+  .day
     float left
+    position relative
+    top 19px
+  .name
+    margin-left 11px
+  .image
     width 200px
-    margin-right 18px
+    margin 0 auto
+    display block
   .info
     margin-left 218px
   .details
     font-size 1.3em
 
 #footer
+  border-top 1px solid #eee
+  margin-top 2em
+  padding-top 10px
+  .responsibly
+    supershadow()
+    .word1
+      font-family script
+      color red
+      font-size 2em
+    .word2
+      font-family slab
+      font-size 1.1em
   .ss-social
     color red
-    font-size 4em
+    font-size 3.5em
+    line-height 1.5em
+    margin 5px 20px

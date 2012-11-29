@@ -4,4 +4,31 @@ title: About Beer Advent
 ---
 <h1 id="about">Beer&nbsp;Advent is&nbsp;a Celebration of craft &amp; community</h1>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="six columns" markdown="1">
+### Really though, what is this thing?
+
+Beer Advent is for beer lovers and novices alike. It's an opportunity for people to get together and share their experiences through the entire spectrum of beer styles. 24 different beers are purchased and distributed among everyone. Each person drinks the same beer on each day of advent and shares their experience.
+
+### Who puts this together?
+
+My name is Matt McManus. I'm a web developer, beer nerd and a chronic over-doer. Go big or go home!
+
+### What a cool idea! How did you come up with it?
+
+This is by no means an original idea of mine. I had heard of it and similar concepts before, I just decided to put wheels on the idea and make it happen. 
+</div>
+
+<div class="six columns" markdown="1">
+### How do you decide on what beers to choose?
+
+There beers on the list are agonizingly picked to fulfill at least one of these criteria:
+
+1. The beer is as close to a perfect representation of it's particular style. (ie: Samuel Smith's Oatmeal Stout is the beer that defines the oatmeal stout style)
+2. The beer is from a great local brewery (ie: Sly Fox)
+3. The beer is a solid, affordable (less than $40 a case) every day (less than 7% ABV) beer (ie: Heavy Seas, Souther Tier, Smuttynose)
+4. The beer is mind-blowingly amazing, rare and expensive (ie: Rochefort 8)
+
+### Is the order you have the beers in intentional?
+
+One of my favorite things about the beer list is the order. It's designed to be an educational experience that will take you through all of the various styles of beers that are available. It starts with approachable beers like Hefeweizens and Lagers and builds on them until you get to rare and more unique (and flavorful!) styles like Flemish Reds and Belgian Quadruples.
+</div>

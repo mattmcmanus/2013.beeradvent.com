@@ -4,7 +4,7 @@ title: Day 1 - Monastery of Christ in the Desert Monks Wit
 day: 1
 brewery: Monastery of Christ in the&nbsp;Desert
 name: Monks Wit
-image: beer.jpg
+image: 1-monks-wit.jpg
 country: USA
 style: Wit
 cost: $37.95

@@ -4,7 +4,7 @@ title: Day 24 - Bierbrouwerij De Koningshoeven B.V. La Trappe Quadrupel
 day: 24
 brewery: Bierbrouwerij De Koningshoeven B.V.
 name: La Trappe Quadrupel
-image: beer.jpg
+image: 24-quadrupel.jpg
 country: USA
 style: Quadrupal
 cost: $106.99

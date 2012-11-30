@@ -4,7 +4,7 @@ title: Day 5 - Goose Island Honkers Ale
 day: 5
 brewery: Goose Island
 name: Honkers Ale
-image: beer.jpg
+image: 5-honkers-ale.jpg
 country: USA
 style: ESB
 cost: $33.99

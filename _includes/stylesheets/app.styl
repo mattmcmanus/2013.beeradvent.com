@@ -294,12 +294,19 @@ body
     margin 5px 20px
 
 @media print
+  #header .top-bar, body
+    border none !important
   nav
     section
       display none !important
   .beer.thumb
+    height 55px !important
+    h3
+      font-size 1.5em
+      top 10px !important
+      width 80% !important
     .image
-      height 150px !important
+      display none !important
     .details
       display none !important
   #footer

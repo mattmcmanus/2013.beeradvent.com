@@ -128,8 +128,11 @@ body{border-top:6px solid #f6f6f6;font-family:"georgia, serif"}
 #footer .madeby{text-align:center;}
 #footer .madeby a{color:#600}
 #footer .ss-social{color:#600;font-size:3.5em;line-height:1.5em;margin:5px 20px}
-@media print{nav section{display:none !important}
-.beer.thumb .image{height:150px !important}
+@media print{#header .top-bar,body{border:none !important}
+nav section{display:none !important}
+.beer.thumb{height:55px !important;}
+.beer.thumb h3{font-size:1.5em;top:10px !important;width:80% !important}
+.beer.thumb .image{display:none !important}
 .beer.thumb .details{display:none !important}
 #footer{display:none !important}
 }

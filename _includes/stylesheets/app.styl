@@ -27,6 +27,9 @@ supershadow()
 
 //  General
 // - - - - - - - - - - - - - - - - - -
+h1, h2, h3
+  font-weight 400
+
 h2, h3
   font-family slab
 
@@ -34,7 +37,7 @@ p, li
   font-family georgia
 
 body
-  border 6px solid #f6f6f6
+  border-top 6px solid #f6f6f6
   font-family georgia
 
 #main a
@@ -46,22 +49,23 @@ body
 
 //    Header & Logo
 // - - - - - - - - - - - - - - - - - -
-#header
+#header  
   .top-bar
     background white
     border-bottom 1px solid #eee
-    // &, ul, a
-    //   height 85px
-    .name, .name a:hover
-      background white
-    a
-      color black
-      text-decoration none
-      font-weight 300
-      &:hover
-        background #f6f6f6
-    .toggle-topbar a
-      border-color black transparent transparent transparent
+    &, ul, a
+      height 85px
+    ul > li
+      &.name, &.name a:hover
+        background white
+      &.toggle-topbar a
+        border-color black transparent transparent transparent
+      a
+        color black
+        text-decoration none
+        font-weight 300
+        &:hover
+          background #f6f6f6
     section
       a
         padding-top 23px
@@ -70,6 +74,18 @@ body
         supershadow()
         &.current
           color red
+@media only screen and (max-width: 940px)
+  #header
+    .top-bar
+      height 119px
+      &.expanded, ul, a
+        height auto
+      ul
+        li.name
+          height 90px
+      section
+        a
+          padding-top 0
 
 #logo 
   font-size 4rem 
@@ -267,8 +283,24 @@ body
     .word2
       font-family slab
       font-size 1.1em
+  .madeby
+    text-align center
+    a
+      color red
   .ss-social
     color red
     font-size 3.5em
     line-height 1.5em
     margin 5px 20px
+
+@media print
+  nav
+    section
+      display none !important
+  .beer.thumb
+    .image
+      height 150px !important
+    .details
+      display none !important
+  #footer
+    display none !important

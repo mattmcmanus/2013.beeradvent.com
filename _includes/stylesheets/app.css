@@ -61,6 +61,11 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   font-weight: normal;
   font-style: normal;
 }
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
 h2,
 h3 {
   font-family: homestead, serif;
@@ -70,7 +75,7 @@ li {
   font-family: "georgia, serif";
 }
 body {
-  border: 6px solid #f6f6f6;
+  border-top: 6px solid #f6f6f6;
   font-family: "georgia, serif";
 }
 #main a {
@@ -85,20 +90,25 @@ body {
   background: #fff;
   border-bottom: 1px solid #eee;
 }
-#header .top-bar .name,
-#header .top-bar .name a:hover {
+#header .top-bar,
+#header .top-bar ul,
+#header .top-bar a {
+  height: 85px;
+}
+#header .top-bar ul > li.name,
+#header .top-bar ul > li.name a:hover {
   background: #fff;
 }
-#header .top-bar a {
+#header .top-bar ul > li.toggle-topbar a {
+  border-color: #000 transparent transparent transparent;
+}
+#header .top-bar ul > li a {
   color: #000;
   text-decoration: none;
   font-weight: 300;
 }
-#header .top-bar a:hover {
+#header .top-bar ul > li a:hover {
   background: #f6f6f6;
-}
-#header .top-bar .toggle-topbar a {
-  border-color: #000 transparent transparent transparent;
 }
 #header .top-bar section a {
   padding-top: 23px;
@@ -108,6 +118,22 @@ body {
 }
 #header .top-bar section a.current {
   color: #600;
+}
+@media only screen and (max-width: 940px) {
+  #header .top-bar {
+    height: 119px;
+  }
+  #header .top-bar.expanded,
+  #header .top-bar ul,
+  #header .top-bar a {
+    height: auto;
+  }
+  #header .top-bar ul li.name {
+    height: 90px;
+  }
+  #header .top-bar section a {
+    padding-top: 0;
+  }
 }
 #logo {
   font-size: 4rem;
@@ -362,9 +388,29 @@ body {
   font-family: homestead, serif;
   font-size: 1.1em;
 }
+#footer .madeby {
+  text-align: center;
+}
+#footer .madeby a {
+  color: #600;
+}
 #footer .ss-social {
   color: #600;
   font-size: 3.5em;
   line-height: 1.5em;
   margin: 5px 20px;
+}
+@media print {
+  nav section {
+    display: none !important;
+  }
+  .beer.thumb .image {
+    height: 150px !important;
+  }
+  .beer.thumb .details {
+    display: none !important;
+  }
+  #footer {
+    display: none !important;
+  }
 }

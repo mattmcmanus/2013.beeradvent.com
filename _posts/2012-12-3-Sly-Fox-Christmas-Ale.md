@@ -15,13 +15,10 @@ ageit: Drink it fresh
 respect: false
 balink: http://beeradvocate.com/beer/profile/1853/7285
 ---
+### The Brewery ###
 
+Sly Fox Brewery is an award winning Pennsylvania brewery. The original Sly Fox Brewhouse & Eatery was founded by the Giannopoulos family at its original Phoenixville, Pennsylvania, location on December 20, 1995. The name of the establishment came out of a family meeting from the tradition of fox hunting in the Chester County area, where the first Sly Fox location resides. [(Source)](http://en.wikipedia.org/wiki/Sly_Fox_Brewery)
 
-### The Beer
+### The Beer ###
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### The Brewery
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+This malty, full-bodied red ale is made with traditional mulling spices: Ginger, Clove, All Spice, Cinnamon & Nutmeg. If this one doesn't get you into the Christmas spirit, you truly are a Scrooge. [(Source)](http://www.slyfoxbeer.com/index.php/front/beer_christmas)

@@ -4,7 +4,7 @@ title: Day 4 - Troeggs Troegenator
 day: 4
 brewery: Troeggs
 name: Troegenator
-image: beer.jpg
+image: troeggs-troegenator.jpg
 country: USA
 style: Dopplebock
 cost: $35.99

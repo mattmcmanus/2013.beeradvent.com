@@ -4,7 +4,7 @@ title: Day 19 - Dark Horse Scotty Karate
 day: 19
 brewery: Dark Horse
 name: Scotty Karate
-image: beer.jpg
+image: dark-horse-scotty-karate.jpg
 country: USA
 style: Scotch Ale
 cost: $36.95

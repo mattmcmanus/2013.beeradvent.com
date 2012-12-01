@@ -4,7 +4,7 @@ title: Day 12 - Dogfish Head India Brown Ale
 day: 12
 brewery: Dogfish Head
 name: India Brown Ale
-image: beer.jpg
+image: dogfish-head-india-brown-ale.jpg
 country: USA
 style: India Brown Ale
 cost: $37.99

@@ -4,7 +4,7 @@ title: Day 3 - Sly Fox Christmas Ale
 day: 3
 brewery: Sly Fox
 name: Christmas Ale
-image: beer.jpg
+image: sly-fox-christmas-ale.jpg
 country: USA
 style: Winter Warmer
 cost: $32.99

@@ -4,7 +4,7 @@ title: Day 18 - Goose Island Bourbon County Stout
 day: 18
 brewery: Goose Island
 name: Bourbon County Stout
-image: beer.jpg
+image: goose-island-bourbon-county-stout.jpg
 country: USA
 style: Imperial Stout
 cost: $160.00

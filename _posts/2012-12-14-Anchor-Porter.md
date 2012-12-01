@@ -4,7 +4,7 @@ title: Day 14 - Anchor Porter
 day: 14
 brewery: Anchor
 name: Porter
-image: beer.jpg
+image: anchor-porter.jpg
 country: USA
 style: Porter
 cost: $37.99

@@ -4,7 +4,7 @@ title: Day 9 - Firestone Walker IPA
 day: 9
 brewery: Firestone Walker
 name: IPA
-image: beer.jpg
+image: firestone-walker-ipa.jpg
 country: USA
 style: India Pale Ale
 cost: $46.99

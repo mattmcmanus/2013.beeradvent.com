@@ -85,11 +85,6 @@ body {
   background: #fff;
   border-bottom: 1px solid #eee;
 }
-#header .top-bar,
-#header .top-bar ul,
-#header .top-bar a {
-  height: 85px;
-}
 #header .top-bar .name,
 #header .top-bar .name a:hover {
   background: #fff;
@@ -101,6 +96,9 @@ body {
 }
 #header .top-bar a:hover {
   background: #f6f6f6;
+}
+#header .top-bar .toggle-topbar a {
+  border-color: #000 transparent transparent transparent;
 }
 #header .top-bar section a {
   padding-top: 23px;
@@ -187,6 +185,23 @@ body {
 }
 #about .word6 {
   color: #999;
+}
+#rules {
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 1px 1px 0px #fff, 3px 3px 0px #ddd;
+  position: relative;
+}
+#rules .word1 {
+  font-family: homestead, serif;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 48%;
+}
+#rules .word2 {
+  color: #600;
+  font-size: 4em;
 }
 .beer {
   position: relative;

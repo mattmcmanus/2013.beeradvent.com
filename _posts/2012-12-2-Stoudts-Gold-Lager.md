@@ -4,7 +4,7 @@ title: Day 2 - Stoudts Gold Lager
 day: 2
 brewery: Stoudts
 name: Gold Lager
-image: beer.jpg
+image: stoudts-gold-lager.jpg
 country: USA
 style: Lager
 cost: $31.99

@@ -4,7 +4,7 @@ title: Day 13 - Dark Horse Reserve Special
 day: 13
 brewery: Dark Horse
 name: Reserve Special
-image: beer.jpg
+image: dark-horse-reserve-special.jpg
 country: USA
 style: Black Ale
 cost: $34.95

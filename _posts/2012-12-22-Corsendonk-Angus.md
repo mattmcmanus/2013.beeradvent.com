@@ -4,7 +4,7 @@ title: Day 22 - Corsendonk Angus
 day: 22
 brewery: Corsendonk
 name: Angus
-image: beer.jpg
+image: corsendonk-angus.jpg
 country: USA
 style: Triple
 cost: $75.95

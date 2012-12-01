@@ -4,7 +4,7 @@ title: Day 11 - Stone Oaked Arrogant Bastard
 day: 11
 brewery: Stone
 name: Oaked Arrogant Bastard
-image: beer.jpg
+image: stone-oaked-arrogant-bastard.jpg
 country: USA
 style: Strong Ale
 cost: $65.99

@@ -50,8 +50,8 @@ body
   .top-bar
     background white
     border-bottom 1px solid #eee
-    &, ul, a
-      height 85px
+    // &, ul, a
+    //   height 85px
     .name, .name a:hover
       background white
     a
@@ -60,6 +60,8 @@ body
       font-weight 300
       &:hover
         background #f6f6f6
+    .toggle-topbar a
+      border-color black transparent transparent transparent
     section
       a
         padding-top 23px
@@ -122,6 +124,23 @@ body
     display inline-block
   .word6
     color #999
+
+#rules
+  font-size 2em
+  text-align center
+  supershadow()
+  position relative
+  .word1
+    font-family slab
+    display block
+    position absolute
+    top 0
+    left 48%
+  .word2
+    color red
+    font-size 4em
+
+
 
 //    BEER!
 // - - - - - - - - - - - - - - - - - -

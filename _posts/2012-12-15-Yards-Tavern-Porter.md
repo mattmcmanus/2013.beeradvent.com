@@ -4,7 +4,7 @@ title: Day 15 - Yards Tavern Porter
 day: 15
 brewery: Yards
 name: Tavern Porter
-image: beer.jpg
+image: yards-tavern-porter.jpg
 country: USA
 style: Porter
 cost: $43.00

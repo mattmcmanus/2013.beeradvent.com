@@ -4,7 +4,7 @@ title: Day 21 - North Coast Old Stock Ale
 day: 21
 brewery: North Coast
 name: Old Stock Ale
-image: beer.jpg
+image: north-coast-old-stock-ale.jpg
 country: USA
 style: Old Ale
 cost: $74.99

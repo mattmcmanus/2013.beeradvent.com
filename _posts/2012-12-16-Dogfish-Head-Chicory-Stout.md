@@ -4,7 +4,7 @@ title: Day 16 - Dogfish Head Chicory Stout
 day: 16
 brewery: Dogfish Head
 name: Chicory Stout
-image: beer.jpg
+image: dogfish-head-chicory-stout.jpg
 country: USA
 style: Stout
 cost: $47.99

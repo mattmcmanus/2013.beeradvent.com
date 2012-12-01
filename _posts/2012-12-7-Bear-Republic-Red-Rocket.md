@@ -4,7 +4,7 @@ title: Day 7 - Bear Republic Red Rocket
 day: 7
 brewery: Bear Republic
 name: Red Rocket
-image: beer.jpg
+image: bear-republic-red-rocket.jpg
 country: USA
 style: Red Ale
 cost: $39.99

@@ -4,10 +4,7 @@ layout: default
 <div id="list" class="twelve columns">
   <div class="row">
   {% for post in site.posts reversed %}
-    {% assign loop = forloop.index | modulo:3 %}
-    {% if loop == 1 %}<div class="row">{% endif %}
     {% include beer-thumb.html %}
-    {% if loop == 0 %}</div>{% endif %}
   {% endfor %}
-  </div>
-</div>
+  </div> <!-- /.row -->
+</div> <!-- /#list -->

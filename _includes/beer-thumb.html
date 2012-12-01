@@ -1,4 +1,14 @@
-<span class="day">{{ post.day }}</span>
-<a href="{{ post.url }}" property="dc:title">
-  <h3><small>{{ post.brewery }}</small> {{ post.name }}</h3>
-</a>
+<div class="beer thumb four columns">
+  <div class="day">Day <strong>{{ post.day }}</strong></div>
+  <a href="{{ post.url }}" property="dc:title">
+    <img class="image" src="/images/{{ post.image }}" alt="{{ post.name }}" />
+    <h3 class="name"><small>{{ post.brewery }}</small> {{ post.name }}</h3>
+  </a>
+  <ul class="details">
+    <li class="style {{ post.style }}">{% if post.shortstyle %}{{ post.shortstyle }}{% else %}{{ post.style }}{% endif %}</li>
+    <li class="abv {{ post.heat }}">{{ post.abv }}</li>
+    <li class="country {{ post.country }}">{{ post.country }}</li>
+    <li class="cost {{ post.dollas }} {{ post.cost }}">{{ post.cost }}</li>
+    <li class="comments"><a href="{{ post.url }}#disqus_thread">Comments</a></li>
+  </ul>
+</div>

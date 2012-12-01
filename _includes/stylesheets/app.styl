@@ -1,0 +1,306 @@
+@import 'nib'
+@import 'ss-social.css'
+
+@font-face {
+    font-family: 'homestead';
+    src: url('/webfonts/homestead-regular-webfont.eot');
+    src: url('/webfonts/homestead-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/webfonts/homestead-regular-webfont.woff') format('woff'),
+         url('/webfonts/homestead-regular-webfont.ttf') format('truetype'),
+         url('/webfonts/homestead-regular-webfont.svg#homestead_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Variables & Functions
+// - - - - - - - - - - - - - - - - - -
+red=#600
+slab=homestead,serif
+georgia="georgia, serif"
+script="corner-store-1","corner-store-2",sans-serif
+fancyslab()
+  font-family slab
+  text-shadow 2px 2px 0px white, 6px 6px 0px #900
+supershadow()
+  text-shadow 1px 1px 0px white, 3px 3px 0px #ddd
+
+
+//  General
+// - - - - - - - - - - - - - - - - - -
+h1, h2, h3
+  font-weight 400
+
+h2, h3
+  font-family slab
+
+p, li
+  font-family georgia
+
+body
+  border-top 6px solid #f6f6f6
+  font-family georgia
+
+#main a
+  color #333
+
+#main p, #main li
+  font-size 15px
+  line-height 1.4em
+
+//    Header & Logo
+// - - - - - - - - - - - - - - - - - -
+#header  
+  .top-bar
+    background white
+    border-bottom 1px solid #eee
+    &, ul, a
+      height 85px
+    ul > li
+      &.name, &.name a:hover
+        background white
+      &.toggle-topbar a
+        border-color black transparent transparent transparent
+      a
+        color black
+        text-decoration none
+        font-weight 300
+        &:hover
+          background #f6f6f6
+    section
+      a
+        padding-top 23px
+        font-size 1.4em
+        font-family slab
+        supershadow()
+        &.current
+          color red
+@media only screen and (max-width: 940px)
+  #header
+    .top-bar
+      height 119px
+      &.expanded, ul, a
+        height auto
+      ul
+        li.name
+          height 90px
+      section
+        a
+          padding-top 0
+
+#logo 
+  font-size 4rem 
+  line-height .9em
+  position relative 
+  top -30px
+  transform rotate(-25deg) 
+  margin .5em auto 
+  width 200px
+  supershadow()
+  span
+    display block 
+  .word2
+    position relative
+    left -.8em 
+  .word3
+    color red
+    font-size .55em
+    position absolute 
+    font-family slab
+    transform rotate(25deg)
+    left 48px
+    bottom -41px
+
+//    About Page
+// - - - - - - - - - - - - - - - - - -
+#about
+  font-size 3em
+  text-align center
+  supershadow()
+  span
+    display block
+  .word1
+    font-size 1.5em
+  .word2, .word4, .word5,.word7
+    font-family slab
+  .word2,.word4
+    border 1px solid #ccc
+    border-width 3px 0
+    display block
+    margin 0 auto
+    width 120px
+    line-height .9em
+    padding 2px 0 1px
+  .word3
+    font-size 3em
+    color red
+  .word4
+    width 80px
+  .word5,.word6,.word7
+    font-size 2em
+    display inline-block
+  .word6
+    color #999
+
+#rules
+  font-size 2em
+  text-align center
+  supershadow()
+  position relative
+  .word1
+    font-family slab
+    display block
+    position absolute
+    top 0
+    left 48%
+  .word2
+    color red
+    font-size 4em
+
+
+
+//    BEER!
+// - - - - - - - - - - - - - - - - - -
+.beer
+  position relative
+  margin-bottom 2em
+  .day
+    font-family georgia
+    font-style italic
+    background-color red
+    color white
+    padding 8px
+    text-align center
+    border-radius 2px
+    box-shadow 0px 2px 3px rgba(34,34,34,.1)
+    strong
+      font-family slab
+      display block
+      font-style normal
+      font-size 1.5em
+  .name, .image
+    display inline-block
+  .name
+    small
+      display block
+      font-family georgia
+      font-weight 300
+      line-height 1.1em
+      color red
+  .details
+    border-top 1px solid #eee
+    li
+      list-style none
+      font-style italic
+      display inline-block
+      padding 2px 4px
+      margin 0
+      border-left 1px solid #eee
+      &:first-child
+        border-left none
+      &.abv
+        &.mid
+          color #740
+        &.hi 
+          color #940
+      &.cost
+        &.low
+          color #161
+        &.mid
+          color #151
+        &.hi 
+          color #141
+
+.beer.thumb
+  padding-top 1em
+  .day
+    font-size 1.2rem
+    width 40px
+    position absolute
+    left 10px
+    strong
+      margin-top 2px
+      display block
+  & > a 
+    text-decoration none
+    display block
+    margin-top 1em
+  .name
+    width 65%
+  h3 
+    font-size 2.1em
+    line-height 1.1em
+    position absolute 
+    top 50px 
+    right 0
+  .image
+    height 250px
+    margin 0 10px
+  .details
+    position absolute
+    bottom 5px
+    right 0
+    width 65%
+    li
+      font-size 13px
+      &.style
+        width 100%
+      &.abv, &.cost, &.country, &.comments
+        width 31%
+        border-top 1px solid #eee
+      &.abv
+        border-left none
+      &.comments
+        width 100%
+        border-left none
+
+.beer.single
+  padding-top 0
+  .day
+    float left
+    position relative
+    top 19px
+  .name
+    margin-left 11px
+  .image
+    width 200px
+    margin 0 auto
+    display block
+  .info
+    margin-left 218px
+  .details
+    font-size 1.3em
+
+#footer
+  border-top 1px solid #eee
+  margin-top 2em
+  padding-top 10px
+  .responsibly
+    supershadow()
+    .word1
+      font-family script
+      color red
+      font-size 2em
+    .word2
+      font-family slab
+      font-size 1.1em
+  .madeby
+    text-align center
+    a
+      color red
+  .ss-social
+    color red
+    font-size 3.5em
+    line-height 1.5em
+    margin 5px 20px
+
+@media print
+  nav
+    section
+      display none !important
+  .beer.thumb
+    .image
+      height 150px !important
+    .details
+      display none !important
+  #footer
+    display none !important

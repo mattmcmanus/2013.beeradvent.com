@@ -5,7 +5,7 @@ day: 10
 brewery: Brasserie d'Achouffe
 name: Houblon Chouffe
 image: Chouffe-Houblon-Dobbelen-IPA-Tripel.jpg
-country: USA
+country: Belgium
 style: Belgian Pale Ale
 cost: $113.99
 dollas: hi

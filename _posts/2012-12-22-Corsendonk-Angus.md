@@ -5,7 +5,7 @@ day: 22
 brewery: Corsendonk
 name: Angus
 image: corsendonk-angus.jpg
-country: USA
+country: Belgium
 style: Triple
 cost: $75.95
 dollas: mid

@@ -1,9 +1,9 @@
 ---
 layout: beer
-title: Day 20 - Avery Old Jubliation
+title: Day 20 - Avery Old Jubilation
 day: 20
 brewery: Avery
-name: Old Jubliation
+name: Old Jubilation
 image: avery-old-jubliation.jpg
 country: USA
 style: Old Ale

@@ -59,7 +59,7 @@ h1,h2,h3{font-weight:400}
 h2,h3{font-family:homestead,serif}
 p,li{font-family:"georgia, serif"}
 body{border-top:6px solid #f6f6f6;font-family:"georgia, serif"}
-#main a{color:#333}
+#main a,#main a:link{color:#600;text-decoration:underline}
 #main p,#main li{font-size:15px;line-height:1.4em}
 #header .top-bar{background:#fff;border-bottom:1px solid #eee;}
 #header .top-bar,#header .top-bar ul,#header .top-bar a{height:85px}
@@ -69,7 +69,8 @@ body{border-top:6px solid #f6f6f6;font-family:"georgia, serif"}
 #header .top-bar ul > li a:hover{background:#f6f6f6}
 #header .top-bar section a{padding-top:23px;font-size:1.4em;font-family:homestead,serif;text-shadow:1px 1px 0 #fff,3px 3px 0 #ddd;}
 #header .top-bar section a.current{color:#600}
-@media only screen and (max-width: 940px){#header .top-bar{height:119px;}
+@media only screen and (max-width: 940px){#header h1{left:9%}
+#header .top-bar{height:119px;}
 #header .top-bar.expanded,#header .top-bar ul,#header .top-bar a{height:auto}
 #header .top-bar ul li.name{height:90px}
 #header .top-bar section a{padding-top:0}
@@ -102,6 +103,7 @@ body{border-top:6px solid #f6f6f6;font-family:"georgia, serif"}
 .beer .details li.cost.low{color:#161}
 .beer .details li.cost.mid{color:#151}
 .beer .details li.cost.hi{color:#141}
+#main li.comments a,#main a.comments{text-decoration:none}
 .beer.thumb{padding-top:1em;}
 .beer.thumb .day{font-size:1.2rem;width:40px;position:absolute;left:10px;}
 .beer.thumb .day strong{margin-top:2px;display:block}
@@ -115,6 +117,14 @@ body{border-top:6px solid #f6f6f6;font-family:"georgia, serif"}
 .beer.thumb .details li.abv,.beer.thumb .details li.cost,.beer.thumb .details li.country,.beer.thumb .details li.comments{width:31%;border-top:1px solid #eee}
 .beer.thumb .details li.abv{border-left:none}
 .beer.thumb .details li.comments{width:100%;border-left:none}
+#quicknav{height:158px;overflow:auto;}
+#quicknav .quickcontainer{height:120px;width:1100px}
+#quicknav .beer.thumb{display:inline-block;margin:0;}
+#quicknav .beer.thumb .day{padding:3px;width:auto;color:#ccc;background:transparent;-webkit-box-shadow:none;box-shadow:none;left:13px;top:2px;}
+#quicknav .beer.thumb .day strong{font-size:1.2em}
+#quicknav .beer.thumb a:hover .image{top:-10px}
+#quicknav .beer.thumb img.image{-webkit-transition:all .1s ease-in-out;-moz-transition:all .1s ease-in-out;-o-transition:all .1s ease-in-out;-ms-transition:all .1s ease-in-out;transition:all .1s ease-in-out;position:relative;height:110px;width:34px;margin:0 4px;display:block}
+#quicknav .beer.thumb .comments{font-weight:700;color:#fff;width:21px;height:18px;overflow:hidden;text-align:center;position:absolute;bottom:0;left:11px;padding:3px 5px;background:#600;-webkit-border-radius:4px;border-radius:4px;font-family:homestead,serif;display:block}
 .beer.single{padding-top:0;}
 .beer.single .day{float:left;position:relative;top:19px}
 .beer.single .name{margin-left:11px}
@@ -128,7 +138,9 @@ body{border-top:6px solid #f6f6f6;font-family:"georgia, serif"}
 #footer .madeby{text-align:center;}
 #footer .madeby a{color:#600}
 #footer .ss-social{color:#600;font-size:3.5em;line-height:1.5em;margin:5px 20px}
-@media print{#header .top-bar,body{border:none !important}
+@media only screen and (max-width: 500px){#main .beer.single .day{float:none;width:40px;top:3px}
+#main .beer.single .image{width:125px}
+}@media print{#header .top-bar,body{border:none !important}
 nav section{display:none !important}
 .beer.thumb{height:55px !important;}
 .beer.thumb h3{font-size:1.5em;top:10px !important;width:80% !important}

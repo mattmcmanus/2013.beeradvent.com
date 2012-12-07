@@ -1,6 +1,21 @@
 ---
 layout: default
 ---
+<div id="quicknav" class="twelve columns">
+  <div class="quickcontainer">
+  {% for post in site.posts reversed %}
+    <div class="beer thumb">
+      <div class="day"><strong>{{ post.day }}</strong></div>
+      <a href="{{ post.url }}" property="dc:title">
+        <img class="image" src="/images/thumb-{{ post.image }}" alt="{{ post.name }}" />
+      </a>
+      <a class="comments" href="{{ site.url }}{{ post.url }}/#disqus_thread"></a>
+    </div>
+  {% endfor %}
+  </div>
+</div>
+</div>
+<div class="row">
 <div class="beer single four columns">
   <img class="image" src="/images/{{ page.image }}" alt="{{ page.name }}" />
 </div>

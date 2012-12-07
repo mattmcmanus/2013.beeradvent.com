@@ -4,7 +4,7 @@ title: Day 17 - Founders Breakfast Stout
 day: 17
 brewery: Founders
 name: Breakfast Stout
-image: founders-breakfast-stout.png
+image: founders-breakfast-stout.jpg
 country: USA
 style: Imperial Oatmeal Stout
 cost: $69.99

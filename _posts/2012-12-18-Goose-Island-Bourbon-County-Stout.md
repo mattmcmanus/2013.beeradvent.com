@@ -16,6 +16,8 @@ respect: false
 balink: http://beeradvocate.com/beer/profile/1146/10672
 ---
 
+**Respect this beer** It has a lot of alcohol so take your time. I highly recommend, if you can, to age this beer. 5 years even. Seriously.
+
 ### The Brewery
 
 When the first Goose Island Brewpub opened its doors in 1988, domestic, mass-produced beer was deeply ingrained in Midwestern culture. The craft beer industry was still in its infancy, with only a handful of brewpubs in existence in the Midwest. In his travels across Europe, beer-lover John Hall had enjoyed a distinctive local brew in each region he visited. Hall was convinced that Midwesterners could produce beers as good or better than those he’d tasted in his travels. Living on the shore of the largest system of fresh water on the planet Earth, in a city with rapidly evolving tastes – John decided that his hometown, Chicago, would be the ideal place to do just that.

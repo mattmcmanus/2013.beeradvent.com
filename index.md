@@ -2,7 +2,7 @@
 layout: default
 title: About Beer Advent
 ---
-<h1 id="about">Beer&nbsp;Advent is&nbsp;a Celebration of craft &amp; community</h1>
+<h1 id="this-year">Beer&nbsp;Advent is going to look a little different this year</h1>
 
 <div class="six columns" markdown="1">
 ### Really though, what is this thing?

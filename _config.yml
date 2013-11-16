@@ -1,6 +1,6 @@
-server_port: 4000
+port: 4000
 baseurl:    /
-url: http://2012.beeradvent.com
+url: http://2013.beeradvent.com
 
 markdown:    maruku
 permalink:   /:title
@@ -8,8 +8,6 @@ permalink:   /:title
 rdiscount:
   extensions: []
 
-auto: true
-server: true
 prose:
   metadata:
     "_posts/beer": |

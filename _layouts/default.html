@@ -12,17 +12,17 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Beer Advent 2012 - {% if page.title %}{{ page.title }}{% else %}The Calendar{% endif %}</title>
+  <title>Beer Advent 2013 - {% if page.title %}{{ page.title }}{% else %}The Calendar{% endif %}</title>
   <meta name="author" content="{{ site.author }}">
 
   <!-- <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}"> -->
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
-  
+
   <!-- Facebook Stuff and things-->
   <meta property="fb:app_id" content="165198970242612">
   <meta property="og:site_name" content="Beer Advent">
   <meta property="og:description" content="Beer Advent is for beer lovers and novices alike. It's an opportunity for people to get together and share their experiences through the entire spectrum of beer styles. 24 different beers are purchased and distributed among everyone. Each person drinks the same beer on each day of advent and shares their experience.">
-  {% if page.layout == 'beer' %} 
+  {% if page.layout == 'beer' %}
     <meta property="og:title", content="{{ document.brewery + " "+ document.name}}">
     <meta property="og:url", content="http://2011.beeradvent.com{{document.url}}">
     <meta property="og:image", content= "http://2012.beeradvent.com/images/{{document.image}}">
@@ -48,7 +48,7 @@
   })();
 
 </script>
-  
+
 </head>
 <body>
   <div id="header" class="row">
@@ -64,7 +64,7 @@
   <div id="footer" class="row">
     {% include footer.html %}
   </div>
-  
+
   {% include footer-scripts.html %}
 
 </body>
